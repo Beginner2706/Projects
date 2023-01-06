@@ -1,0 +1,84 @@
+body 
+ {
+    background-image: url('bgnote.jpg');
+    background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+  }
+  
+  .flexbox-container 
+  {
+    display: flex;
+    
+  }
+
+  .flexbox-item-1 
+{
+
+    background-image: url('bg.jpg');
+    opacity: 0.65;
+    background-color: rgb(240, 235, 240);
+    width: 50%;
+    border: 15px solid rgb(60, 209, 187) ;
+    border-radius: 17px;
+    padding: 230px 47px;
+    margin: auto;
+    
+}
+
+.inputbox
+{
+  width: 50%;
+  padding: 10px;
+  position: relative;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 13px;
+} 
+
+ .buttons
+ {
+   padding: 10px; 
+   border: 1px solid black; 
+   border-radius: 10px;
+   border-color:darkgoldenrod;
+   width: 99px;
+   cursor: pointer;
+   display: inline-block;
+   transition-duration: 0.4s;
+  }
+  
+  .buttons:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  
+  .checkbox{
+  align-items: center;
+  }
+ 
+  .checkbox-input[type='checkbox']
+  {
+  float: left;
+  cursor: pointer;
+  bottom: 3px; 
+  }  
+
+.checkbox-label 
+{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.checkbox-input[type='checkbox']:checked 
+{
+
+  text-decoration: line-through
+}
+ul li:checked{text-decoration: line-through ;}
+.visual
+ {
+  opacity: 1 !important;
+  border-radius: 10px;
+ }

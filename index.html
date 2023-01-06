@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TASK APP</title>
+    <link rel=" shortcut icon" type="image/png" href="faviconfinal.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 style="font-family: cursive">
+      <center>TO-DO APP</center>
+    </h1>
+
+    <div class="flexbox-container"><div class="flexbox-item-1"</div>
+
+    <form>
+      <div>
+        <label>ENTER YOUR TASK</label>
+        <input 
+          class="inputbox"
+          id="input"
+          type="text"
+          placeholder="What to do"
+        />
+      </div>
+      <button class="buttons" type="button" id="add" onclick="additem()" onclick="$()">
+        ADD
+      </button>
+      <button class="buttons" type="button" id="remove" onclick="removeitem()">
+        Remove
+      </button>
+      <button class="buttons" type="button" onclick="fclear()" id= "Clear">Clear All</button>
+      <button class="buttons" type="button">Save</button>
+
+      <script src="function.js"></script>
+      <!--for functoning use "onclick" ,function created inside JS-->
+      <br /><br /><br />
+
+      <div class="checkbox">
+        <ul id="list">
+          <!-- <li>
+            <label class="checkbox-label" for="work">WORK</label>
+            <input
+              type="checkbox"
+              name="WORK"
+              class="checkbox-input"
+              id="listItem"
+            />
+            <br />
+          </li>
+
+          <li>
+            <label class="checkbox-label" for="sleep">SLEEP</label>
+            <input
+              type="checkbox"
+              name="SLEEP"
+              class="checkbox-input"
+              id="listItem"
+              checked
+            />
+          </li> -->
+        </ul>
+      </div>
+    </form>
+  </body>
+</html>
